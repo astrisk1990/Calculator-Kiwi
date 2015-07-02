@@ -9,6 +9,7 @@ platform :ios, '6.0'
 # Some other entries might already exist in the file
 # ...
 #
+pod 'XcodeCoverage', '~>1.2.2'
 
 # Add Kiwi as an exclusive dependency for the AmazingAppTests target
 target :CalculatorStackTests, :exclusive => true do
